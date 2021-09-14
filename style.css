@@ -1,0 +1,21 @@
+
+body {
+    background-color: bisque;
+}
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding: 1rem 1rem;
+    
+}
+.aboutRegister {
+font-size: larger;
+}
+table, th, td {
+    border: 1px solid black;
+    color: green;
+    padding: 0.2rem 0.5rem;
+    margin: auto;
+}

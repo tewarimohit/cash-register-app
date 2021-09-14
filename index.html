@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1 class="cashRegister">Cash Register</h1>
+    <p class="aboutRegister">This register will help you in transaction.</p>
+    <label for="bill-amt">Billing Amount:</label>
+    <input id="bill-amt" type='text'  />
+    <hr>
+    <button id="check-bill-amt">First Check Bill Amount</button>
+    <p class="amt-msg"></p>
+        
+        <input class="input-box" id="cash-amt"/>
+    
+    
+    <hr>
+    <button id="check-btn">Check Button</button>
+    <p id="error-handler"></p>
+    <hr>
+    <h2><strong>Return Change</strong></h2>
+    <table class="change-table">
+
+<tr>
+<th>Number of Notes</th>
+<td class="final-count"></td>
+<td class="final-count"></td>
+<td class="final-count"></td>
+<td class="final-count"></td>
+<td class="final-count"></td>
+<td class="final-count"></td>
+<td class="final-count"></td>
+
+</tr>
+<tr>
+    <th>Notes</th>
+    <td style="padding-right: 0.5rem;"> 2000 </td>
+    <td style="padding-right: 0.5rem;"> 500 </td>
+    <td style="padding-right: 0.5rem;"> 100 </td>
+    <td style="padding-right: 0.5rem;"> 50 </td>
+    <td style="padding-right: 0.5rem;"> 10 </td>
+    <td style="padding-right: 0.5rem;"> 5 </td>
+    <td style="padding-right: 0.5rem;"> 1 </td>
+</tr>
+
+</table>
+    
+    
+</div>
+    
+</body>
+<script src="app.js"></script>
+</html>
